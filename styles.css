@@ -1,0 +1,269 @@
+body {    
+    font-family: Inter;    
+    width: 100%;    
+    background-image: linear-gradient(180deg, #28063D 0%, rgba(22, 21, 88, 0.00) 100%);  
+}  
+header{  
+    position: relative;  
+    display: flex;  
+    height: 840px;  
+    flex-shrink: 0;  
+    justify-content: center;  
+    background-image: url(folder/1.png);  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+}  
+nav {   
+    position: absolute;   
+    top: 95%;   
+    display: flex;   
+    justify-content: space-around;   
+    flex-wrap: wrap;    
+    width: 100%;    
+}   
+.nav-link {   
+    color: #FFF;   
+    font-family: Inter;   
+    font-size: 24px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    text-decoration: none;   
+}    
+.logo1 {   
+    position: absolute;   
+    top: 50%;   
+    color: #FFF;   
+    text-shadow: 10px 10px 5px navy, 10px 10px 5px black ;   
+    font-family: Inter;    
+    font-size: 55px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    -webkit-text-stroke: 1px black;  
+  
+}   
+.nav-link:hover {   
+    font-weight: 900;   
+    color:rgb(11, 119, 161);   
+    transition: 0.2s ease-in;   
+    text-shadow: 5px 5px black;    
+}    
+.info {   
+    display: flex;   
+    width: 100%;    
+    flex-wrap: wrap;    
+    justify-content: space-between;    
+    align-items: center;    
+    color: white;   
+}    
+.info-text {    
+    width: 40%;    
+    text-align: justify;    
+    color: white;    
+    margin-left: 7vw;    
+}    
+.info-text h1 {    
+    font-family: Roboto;    
+    font-size: 48px;    
+    font-style: normal;    
+    font-weight: 400;    
+    line-height: normal;    
+}    
+.info-text p {    
+    color: white;    
+    font-family: Roboto;    
+    font-size: 24px;    
+    font-style: normal;    
+    font-weight: 400;    
+    line-height: normal;    
+}    
+.info-img {    
+    width: 40vw;    
+    height: 40vw;    
+    margin-right: 35px;    
+}    
+  
+ 
+.catalog23 {    
+    text-align: center;    
+}    
+.text534  {    
+    text-align: center;    
+}   
+   
+.all-divs {   
+    display: flex;   
+    flex-wrap: wrap;   
+    justify-content: space-evenly;   
+    margin: 0 auto;   
+}   
+.catalog-info {   
+    height: 350px;   
+}   
+.catalog-div {   
+    margin: 20px;   
+    display: flex;   
+    flex-direction: column;   
+    justify-content: space-between;   
+    margin-bottom: 100px;   
+}   
+.catalog h2 {   
+    color: white;   
+    font-family: Roboto;   
+    font-size: 48px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    text-align: center;   
+}  
+.catalog h2::after{  
+    content: url(https://i.ibb.co/gywxSRR/Group-1.png);  
+    margin-left: 25px;  
+    position: relative;  
+    top: 25px;  
+}  
+.catalog-info h3 {   
+    color: #00F;  
+    font-family: Inter;  
+    font-size: 40px;  
+    font-style: normal;  
+    font-weight: 400;  
+    line-height: normal;  
+    -webkit-text-stroke: 1px black;  
+    height: 50px;   
+}   
+.catalog-text {   
+    color: #000;   
+    font-family: Roboto;   
+    font-size: 20px;   
+    font-style: normal;   
+    font-weight: 400;   
+    line-height: normal;   
+    flex-grow: 1;   
+    min-height: 200px;   
+}   
+.sallary {   
+   color: #000;  
+    font-family: Inter;  
+    font-size: 36px;  
+    font-style: normal;  
+    font-weight: 400;  
+    line-height: normal;  
+}   
+   
+.order {   
+    text-decoration: none;   
+    background: linear-gradient(180deg, #000 0%, #F00 100%);  
+    color: #FFF;   
+    font-family: Roboto;   
+    font-size: 20px;   
+    font-style: normal;   
+    font-weight: 700;   
+    line-height: normal;   
+    text-align: center;   
+    padding: 10px 75px 10px 75px;   
+    display: block;   
+    box-shadow: 5px 5px 5px 3px #F00;   
+    margin: 5px 5px;   
+    border: 5px solid #00F;  
+    border-radius: 20px;  
+}
+
+.order:hover {   
+    font-weight: 900;   
+    color:rgb(11, 119, 161);   
+    transition: 0.2s ease-in; 
+    text-shadow: 5px 5px black;   
+}   
+   
+recall h2 {
+    text-align: center;
+    color: #000;
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recall-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.rev-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text2{
+    color: #11133D;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.recall-img {
+    border-radius: 50%;    
+    width: 200x;    
+    height: 200px; 
+}
+
+.rev-div h3{
+    width: 500px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.rev-div h6{
+    margin-top: 20px;
+    width: 500px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.catalog h3 {   
+    text-align: center;   
+}   
+   
+.sallary {   
+    text-align: center;   
+}  
+
+footer{
+    background-color: #C4C4C4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer h3 { 
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+ 
+footer img { 
+    width: 73px; 
+    height: 67px; 
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
