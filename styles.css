@@ -143,6 +143,10 @@ nav {
     flex-grow: 1;   
     min-height: 200px;   
 }   
+.catalog-img{
+    width: 359px;
+    height: 459px;
+}
 .sallary {   
    color: #000;  
     font-family: Inter;  
